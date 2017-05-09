@@ -27,3 +27,8 @@ http://www.cnblogs.com/fnng/p/3258946.html
 http://www.tensorfly.cn/
 
 
+wxpythonbuilder introduce
+http://blog.csdn.net/wh357589873/article/details/51392953
+
+
+
