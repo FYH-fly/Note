@@ -32,3 +32,7 @@ http://blog.csdn.net/wh357589873/article/details/51392953
 
 #### 如何优雅地使用 Sublime Text
 http://blog.jobbole.com/95933/
+
+#### 百度地图创建地图
+http://api.map.baidu.com/lbsapi/creatmap/
+
