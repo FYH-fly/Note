@@ -38,3 +38,7 @@ http://api.map.baidu.com/lbsapi/creatmap/
 
 #### C++ 趣图
 https://pic4.zhimg.com/51e24922e946c197859ff2bca752da97_r.jpg
+
+#### 搜索盘
+http://www.sosuopan.com/file/108016
+
