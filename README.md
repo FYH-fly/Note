@@ -1,10 +1,8 @@
 ## Note
 
-http://weibo.com/tv/v/F0aumzJdX?from=movie
-
-http://weibo.com/tv/v/F09QUeurq?from=music
-
-http://weibo.com/tv/v/F1xrHolVa?from=music
+[microblog music](http://weibo.com/tv/v/F0aumzJdX?from=movie)
+[microblog music](http://weibo.com/tv/v/F09QUeurq?from=music)
+[microblog music](http://weibo.com/tv/v/F1xrHolVa?from=music)
 
 // caffe
 
