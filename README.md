@@ -42,3 +42,9 @@ https://pic4.zhimg.com/51e24922e946c197859ff2bca752da97_r.jpg
 #### 搜索盘
 http://www.sosuopan.com/file/108016
 
+#### 国外程序员整理的 C++ 资源大全
+http://www.csdn.net/article/2014-10-24/2822269-c++
+
+#### A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things. 
+https://github.com/fffaraz/awesome-cpp
+
