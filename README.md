@@ -21,9 +21,7 @@ http://blog.csdn.net/carolzhang8406/article/details/51601937
 
 http://www.cnblogs.com/fnng/p/3258946.html
 
-### tensorflow 中文社区
-
-http://www.tensorfly.cn/
+#### [tensorflow 中文社区](http://www.tensorfly.cn/)
 
 
 #### wxpythonbuilder introduce
