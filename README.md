@@ -1,15 +1,16 @@
 ## Note
 
 [microblog music](http://weibo.com/tv/v/F0aumzJdX?from=movie)
+
 [microblog music](http://weibo.com/tv/v/F09QUeurq?from=music)
+
 [microblog music](http://weibo.com/tv/v/F1xrHolVa?from=music)
 
 // caffe
 
-#### Caffe是一个深刻的学习框架，以表达，速度和模块化为前提.
-http://caffe.berkeleyvision.org/
+#### [Caffe是一个深刻的学习框架，以表达，速度和模块化为前提.](http://caffe.berkeleyvision.org/)
 
-https://www.zhihu.com/question/27982282
+#### [深度学习caffe的代码怎么读？](https://www.zhihu.com/question/27982282)
 
 #### 如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？
 https://www.zhihu.com/question/37180159
