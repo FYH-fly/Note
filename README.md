@@ -12,36 +12,28 @@
 
 #### [深度学习caffe的代码怎么读？](https://www.zhihu.com/question/27982282)
 
-#### 如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？
-https://www.zhihu.com/question/37180159
+#### [如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？](https://www.zhihu.com/question/37180159)
 
-#### python 自动化测试
-http://blog.csdn.net/carolzhang8406/article/details/51601937
+#### [python 自动化测试](http://blog.csdn.net/carolzhang8406/article/details/51601937)
 
-http://www.cnblogs.com/fnng/p/3258946.html
+#### [python selenium](http://www.cnblogs.com/fnng/p/3258946.html)
+
+#### [python](http://www.cnblogs.com/fnng/category/454439.html)
 
 #### [tensorflow 中文社区](http://www.tensorfly.cn/)
 
 
-#### wxpythonbuilder introduce
+#### [wxpythonbuilder introduce](http://blog.csdn.net/wh357589873/article/details/51392953)
 
-http://blog.csdn.net/wh357589873/article/details/51392953
+#### [如何优雅地使用 Sublime Text](http://blog.jobbole.com/95933/)
 
-#### 如何优雅地使用 Sublime Text
-http://blog.jobbole.com/95933/
+#### [百度地图创建地图](http://api.map.baidu.com/lbsapi/creatmap/)
 
-#### 百度地图创建地图
-http://api.map.baidu.com/lbsapi/creatmap/
+#### [C++ 趣图](https://pic4.zhimg.com/51e24922e946c197859ff2bca752da97_r.jpg)
 
-#### C++ 趣图
-https://pic4.zhimg.com/51e24922e946c197859ff2bca752da97_r.jpg
+#### [搜索盘](http://www.sosuopan.com/file/108016)
 
-#### 搜索盘
-http://www.sosuopan.com/file/108016
+#### [国外程序员整理的 C++ 资源大全](http://www.csdn.net/article/2014-10-24/2822269-c++)
 
-#### 国外程序员整理的 C++ 资源大全
-http://www.csdn.net/article/2014-10-24/2822269-c++
-
-#### A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things. 
-https://github.com/fffaraz/awesome-cpp
+#### [A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp)
 
