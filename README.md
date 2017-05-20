@@ -37,3 +37,4 @@
 
 #### [A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp)
 
+#### [github 相关介绍 ](http://edu.csdn.net/course/detail/4079)
