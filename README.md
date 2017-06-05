@@ -37,4 +37,4 @@
 
 #### [A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp)
 
-
+#### [别瞎扯淡了，说重点](https://www.zhihu.com/question/20632491)
