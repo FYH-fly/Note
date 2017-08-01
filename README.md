@@ -40,3 +40,5 @@
 #### [别瞎扯淡了，说重点](https://www.zhihu.com/question/20632491)
 
 #### [W3School 后台教程](http://www.ctolib.com/docs//sfile/w3school-back-end/index.html)
+
+#### [python django ](https://borisliu.gitbooks.io/from-python-to-django/content/)
