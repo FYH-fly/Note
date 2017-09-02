@@ -21,6 +21,7 @@
 #### [python](http://www.cnblogs.com/fnng/category/454439.html)
 
 #### [tensorflow 中文社区](http://www.tensorfly.cn/)
+#### [wxpythonbuilder简单实用，构建图形界面](http://yuyongid.blog.51cto.com/10626891/1717514)
 
 
 #### [wxpythonbuilder introduce](http://blog.csdn.net/wh357589873/article/details/51392953)
