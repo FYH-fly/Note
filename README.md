@@ -21,21 +21,16 @@
 #### [python](http://www.cnblogs.com/fnng/category/454439.html)
 
 #### [tensorflow 中文社区](http://www.tensorfly.cn/)
+
 #### [wxpythonbuilder简单实用，构建图形界面](http://yuyongid.blog.51cto.com/10626891/1717514)
-
-
-#### [wxpythonbuilder introduce](http://blog.csdn.net/wh357589873/article/details/51392953)
+#### [wxpython——yibaipython教程](http://www.yiibai.com/wxpython/)
 
 #### [如何优雅地使用 Sublime Text](http://blog.jobbole.com/95933/)
-
 #### [百度地图创建地图](http://api.map.baidu.com/lbsapi/creatmap/)
 
 #### [C++ 趣图](https://pic4.zhimg.com/51e24922e946c197859ff2bca752da97_r.jpg)
-
 #### [搜索盘](http://www.sosuopan.com/file/108016)
-
 #### [国外程序员整理的 C++ 资源大全](http://www.csdn.net/article/2014-10-24/2822269-c++)
-
 #### [A curated list of awesome C/C++ frameworks, libraries, resources, and shiny things.](https://github.com/fffaraz/awesome-cpp)
 
 #### [别瞎扯淡了，说重点](https://www.zhihu.com/question/20632491)
