@@ -38,3 +38,5 @@
 #### [W3School 后台教程](http://www.ctolib.com/docs//sfile/w3school-back-end/index.html)
 
 #### [python django ](https://borisliu.gitbooks.io/from-python-to-django/content/)
+
+#### [Android上打包jar并在真机上运行](http://blog.csdn.net/zhuvery/article/details/78011345)
