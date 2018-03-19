@@ -43,3 +43,5 @@
 
 #### [疫苗注射选择](https://mp.weixin.qq.com/s?__biz=MzI0NzE0MDcyMA==&mid=2650692626&idx=1&sn=051c86544ba0cb73e5ed5bc2be0f0fef&chksm=f1be640dc6c9ed1b66778c504f1d858bca45cf742d7bee0184a82fe9411c7ebc9196e0cf412e&scene=4#wechat_redirect)
 
+#### Python网络数据采集 Django自学教程
+
