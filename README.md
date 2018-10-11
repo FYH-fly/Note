@@ -48,5 +48,4 @@
 #### Python网络数据采集 Django自学教程
 #### [github pop java star](https://github.com/trending?l=java&since=monthly)
 
-#### python boot recommend
-#### [网盘地址](https://pan.baidu.com/s/15S0QQwIxIqyZ5PjKZRHPuQ 密码：237a)
+#### [网盘地址 python boot recommend](https://pan.baidu.com/s/15S0QQwIxIqyZ5PjKZRHPuQ 密码：237a)
