@@ -199,16 +199,12 @@ def get_jpg_files(path, del_md5_flag=False):
             pass
     return pics
 
-def filter_camera_img(hash_func=phash):
-    
+
+def get_pic_modules_list(img_path='', del_md5_flag=False, hash_func=phash):
     
     pic_lists = get_jpg_files(img_path, del_md5_flag)
     logging.info('pic_lists = {}'.format(pic_lists))
     
-    similar_pic_dir = os.path.dirname(pic_lists[0]) + '/like/' # new folder
-    if not os.path.exists(similar_pic_dir):
-        os.mkdir(similar_pic_dir)
-        
     pic_modules = []
     for pic in pic_lists: # 初始化图片列表
         picture = PicModule()
@@ -228,13 +224,14 @@ def filter_camera_img(hash_func=phash):
             logging.info('{} md5 has exists, read from md5 file.'.format(picture.pic_path))
             
     logging.info("totals pic = {}".format(len(pic_modules)))
-    
+    return pic_modules
+
+def filter_camera_img(pic_modules, cmp_ratio=0.9):
     for pic in pic_modules:
         std_pic = pic.pic_md5
-        logging.info("pic_modules[{}] = {}".format(pic_modules.index(pic), pic.pic_path))
+        logging.info("std pic_modules[{}] = {}".format(pic_modules.index(pic), pic.pic_path))
         
-        
-        # setp 20, A picture can be compared only for 20 times.
+        # setp 10, A picture can be compared only for 10 times.
         length = pic_modules.index(pic) + 1 + 10
         
         if length > len(pic_modules):
@@ -244,7 +241,7 @@ def filter_camera_img(hash_func=phash):
             cmp_pic = pic_modules[index].pic_md5
             ratio = cmp_hash(std_pic, cmp_pic)
             pic.cmp_total += 1
-            if ratio > 0.9:
+            if ratio > cmp_ratio:
                 pic.cmp_pass_count += 1
                 pic.del_flag = True
                 pic.cmp_ratio = ratio
@@ -263,6 +260,11 @@ def filter_camera_img(hash_func=phash):
                 pass
         pass
     
+    similar_pic_dir = os.path.dirname(pic_modules[0].pic_path) + '/like/' # new folder
+    if not os.path.exists(similar_pic_dir):
+        os.mkdir(similar_pic_dir)
+        
+    # 上面处理得到比对好的结果，下面根据结果进行对应的操作
     index = 0
     for pic in pic_modules:
         if pic.del_flag:
@@ -282,9 +284,11 @@ def filter_camera_img(hash_func=phash):
                 shutil.copy(pic.pic_path, same_folder)
             
 #             os.remove(pic.pic_path)
-            for p in pic.similar_pic_list:
-                shutil.copy(p.pic_path, same_folder)
-                logging.info(p)
+#             for p in pic.similar_pic_list:
+#                 shutil.copy(p.pic_path, same_folder)
+#                 logging.info(p)
+
+            shutil.copy(pic.pic_path, similar_pic_dir)
             index += 1
             
             # move file to like folder
@@ -322,6 +326,7 @@ def get_test_result_folder(path):
     return tmp, like
 
 def test_result_correct_ratio(path):
+    # 
     pic_folders, like_folder = get_test_result_folder(path)
     print(like_folder)
     print(pic_folders)
@@ -331,9 +336,22 @@ def test_result_correct_ratio(path):
         phash_res = judge_pics_ops(pic_folder, phash)
         dhash_res = judge_pics_ops(pic_folder, dhash)
         print('{} ahash = {}. phash = {}, dhash = {}'.format(pic_folder, ahash_res, phash_res, dhash_res))
-        
     pass
 
+
+def exec_start():
+    pathss = 'E:\camera'
+    test_result_correct_ratio(pathss)
+    
+    initLogging(getCurrentDate() + '.log')
+    
+    img_path = 'E:\\camera'
+    del_md5_flag = True
+    del_md5_flag = False
+            
+#     pic_modules = get_pic_modules_list(img_path, del_md5_flag, avg_hash)
+#     filter_camera_img(pic_modules, 0.9)
+    
 
 if __name__ == '__main__':
     
@@ -366,16 +384,7 @@ if __name__ == '__main__':
 #     judge_pics_p(paths)
 #     judge_pics_d(paths)
     
-    pathss = 'E:\camera'
-#     test_result_correct_ratio(pathss)
-    
-    
-    del_md5_flag = True
-    img_path = 'E:\\camera'
-    
-    initLogging(getCurrentDate() + '.log')
-    filter_camera_img()
-    
+    exec_start()
 
     logging.info('#'*40)
     logging.info('#'*11 + ' PIC_COMPARE_END ' + '#'*12)
