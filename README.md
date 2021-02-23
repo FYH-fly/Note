@@ -4,7 +4,7 @@
 #### [Java面试题总结](https://blog.csdn.net/qq_40949465/category_8786155.html)
 #### [Java单例模式](https://www.cnblogs.com/lyw-hunnu/p/12576345.html)
 #### [Java之美[从菜鸟到高手演变]系列之博文阅读导航](https://blog.csdn.net/zhangerqing/article/details/8245560) 
-
+#### [python 模块大全](https://blog.csdn.net/hanzihan123/article/details/41898643)
 
 [microblog music](http://weibo.com/tv/v/F0aumzJdX?from=movie)
 
