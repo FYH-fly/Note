@@ -53,3 +53,35 @@
 #### [github pop java star](https://github.com/trending?l=java&since=monthly)
 
 #### [网盘地址 python boot recommend](https://pan.baidu.com/s/15S0QQwIxIqyZ5PjKZRHPuQ)  密码：237a
+
+```
+main()
+{
+	mkdir sdcard/isp_log
+	mkdir sdcard/hilogs
+	mkdir sdcard/kmsgcat_log
+	mkdir sdcard/tombstone
+	while :
+	do
+		curdate=$(date +'%Y%m%d%H%M%S')
+		echo $curdate
+		for index in $(seq 1 25)  
+		do	
+			mv /data/vendor/log/isp-log/isp-log-$index.tar.gz /sdcard/isp_log/isp-log-$curdate-$index.tar.gz &> /dev/null
+			rm /data/vendor/log/isp-log/isp-log-$index.tar.gz
+			mv /data/log/android_logs/applogcat-log-$index.tar.gz /sdcard/applogcat_log/applogcat-log-$curdate-$index.tar.gz &> /dev/null
+			rm /data/log/android_logs/applogcat-log-$index.tar.gz
+			mv /data/log/android_logs/kmsgcat-log-$index.tar.gz /sdcard/kmsgcat_log/kmsgcat-log-$curdate-$index.tar.gz &> /dev/null
+			rm /data/log/android_logs/kmsgcat-log-$index.tar.gz
+			mv /data/log/hilogs/kmsgcat-log-$index.tar.gz /sdcard/kmsgcat_log/kmsgcat-log-$curdate-$index.tar.gz &> /dev/null
+			rm /data/log/hilogs/kmsgcat-log-$index.tar.gz
+			mv /data/tombstones/tombstone_0$index /sdcard/tombstones/tombstone-$curdate_0$index &> /dev/null
+			rm /data/tombstones/tombstone_0$index
+		done
+		mv /data/log/hilogs/hiapplogcat-log.*.*.gz /sdcard/hilogs/ &> /dev/null
+		sleep 100
+	done
+}
+
+main
+```
