@@ -14,6 +14,7 @@ linux kernel development
 Cis函数的cis_dev_call，也是抄的linux sensor驱动思路。
 推荐再阅读一个简单的网卡驱动stmmac_main.c，了解下基本驱动写法和技巧。目前isp firmware驱动，比如isp_core_call，isp_device_call之类，很多思路也是抄的或者类似的。熟悉了内核的module_init之类的init section方法和原理，看到isp_core_call肯定是秒懂，根本不用思考。
 ```
+#### [stmmac网卡驱动源码解读](https://blog.csdn.net/heliangbin87/article/details/75997189)
 
 #### [const总结](https://blog.csdn.net/xingjiarong/article/details/47282255)
 #### [Java面试题总结](https://blog.csdn.net/qq_40949465/category_8786155.html)
