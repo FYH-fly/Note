@@ -9,7 +9,7 @@ import time
 import logging
 
 class Log():
-    def __init__(self, log_file = "mbist_tools.log"):
+    def __init__(self, log_file = "tools.log"):
         '''添加一个日志器'''
         self.log_file_path = "./log/"
         
