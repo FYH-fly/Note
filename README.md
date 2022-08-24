@@ -22,17 +22,6 @@ Cis函数的cis_dev_call，也是抄的linux sensor驱动思路。
 #### [Java之美[从菜鸟到高手演变]系列之博文阅读导航](https://blog.csdn.net/zhangerqing/article/details/8245560) 
 #### [python 模块大全](https://blog.csdn.net/hanzihan123/article/details/41898643)
 
-[microblog music](http://weibo.com/tv/v/F0aumzJdX?from=movie)
-
-[microblog music](http://weibo.com/tv/v/F09QUeurq?from=music)
-
-[microblog music](http://weibo.com/tv/v/F1xrHolVa?from=music)
-
-// caffe
-
-#### [Caffe是一个深刻的学习框架，以表达，速度和模块化为前提.](http://caffe.berkeleyvision.org/)
-
-#### [深度学习caffe的代码怎么读？](https://www.zhihu.com/question/27982282)
 
 #### [如何系统地学习Python 中 matplotlib, numpy, scipy, pandas？](https://www.zhihu.com/question/37180159)
 
