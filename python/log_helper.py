@@ -4,6 +4,8 @@ Created on 2022-5-13
 @author: fyh
 '''
 
+# https://zhuanlan.zhihu.com/p/476549020
+
 import os
 import time
 import logging
